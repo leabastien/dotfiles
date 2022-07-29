@@ -1,0 +1,2 @@
+Just make all these scripts start with your system
+(~/.config/autostart)
