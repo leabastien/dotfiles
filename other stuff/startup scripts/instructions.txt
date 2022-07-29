@@ -1,2 +1,22 @@
 Just make all these scripts start with your system
 (~/.config/autostart)
+
+Also make them executables
+
+To make apps resize, move and hide title bar automatically on start:
+
+move your window to were it needs to be
+click on the 3 dots at top left of the window
+more actions
+window specific actions
+detect window properties
+click on your window
+add size and position
+then click close on the left
+add properties
+add "no titile bar and border"
+switch no titile bar and border to yes
+click apply
+repeat for each app
+
+(this only works if your app as a custom window name like "Resource Watcher")
