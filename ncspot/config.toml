@@ -1,0 +1,105 @@
+default_keybindings = true
+use_nerdfont = true
+notify = true
+gapless = true
+flip_status_indicators=true
+shuffle = true
+repeat = 'playlist'
+volnorm = true
+
+[keybindings]
+## unbinded: nN, c, eE, xX
+######################################
+# Song controls
+######################################
+
+##################
+# Fast forward / rewind
+##################
+"b" = "seek -1000"
+"f" = "seek +1000"
+"B" = "seek -10000"
+"F" = "seek +10000"
+
+######################################
+# Other
+######################################
+"R" = "reload"
+"?" = "help"
+"U" = "update"
+
+
+# Gruvbox dark [ originally based on base16 by Dawid Kurek (dawikur@gmail.com) ]
+[theme]
+background = "default"
+primary = "#55CDFC"
+secondary = "light black"
+title = "#F7A8B8"
+playing = "#F7A8B8"
+playing_bg = "#383838"
+playing_selected = "#F7A8B8"
+highlight = "#89B4FA"
+highlight_bg = "#45475A"
+error = "#fbf1c7"
+error_bg = "#cc241d"
+statusbar_progress = "#F7A8B8"
+statusbar_bg = "#282828"
+statusbar = "#F7A8B8"
+cmdline = "#d5c4a1"
+cmdline_bg = "#383838"
+search_match = "#fabd2f"
+
+## Base16 solarized dark, originally form https://github.com/gidsi/base16-ncspot
+# [theme]
+# background = "#002b36"
+# primary = "#eee8d5"
+# secondary = "#2aa198"
+# title = "#859900"
+# playing = "#268bd2"
+# playing_selected = "light green"
+# playing_bg = "#002b36"
+# highlight = "#93a1a1"
+# highlight_bg = "#484848"
+# error = "#93a1a1"
+# error_bg = "#fdf6e3"
+# statusbar = "#002b36"
+# statusbar_progress = "#dc322f"
+# statusbar_bg = "#859900"
+# cmdline = "#93a1a1"
+# cmdline_bg = "#002b36"
+
+## Spotify
+# [theme]
+# background = "black"
+# primary = "light white"
+# secondary = "light black"
+# title = "green"
+# playing = "green"
+# playing_selected = "light green"
+# playing_bg = "black"
+# highlight = "light white"
+# highlight_bg = "#484848"
+# error = "light white"
+# error_bg = "red"
+# statusbar = "black"
+# statusbar_progress = "green"
+# statusbar_bg = "green"
+# cmdline = "light white"
+# cmdline_bg = "black"
+
+# [theme]
+# background = "#282828"
+# primary = "light white"
+# secondary = "light black"
+# title = "cyan"
+# playing = "cyan"
+# playing_bg = "black"
+# highlight = "light white"
+# highlight_bg = "#484848"
+# error = "light white"
+# error_bg = "red"
+# statusbar = "cyan"
+# statusbar_progress = "black"
+# statusbar_bg = "#484848"
+# cmdline = "light white"
+# cmdline_bg = "black"
